@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+    background-color: #fff;
+    width: 350px;
+    margin: 50px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 30px 33px 0px rgba(56,41,224,0.13);
+}
+
+.card__imagen__img{
+    width: 100%;
+}
+
+.card__texto{
+    text-align: center;
+    padding: 25px;
+}
+
+.card__texto__titulo{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card__texto__parrafo{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.card__texto__contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 16px 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card__texto__contenedor__plan h3{
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.card__texto__contenedor__plan p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+}
+
+.card__texto__contenedor__btn__a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+:hover.card__texto__contenedor__btn__a{
+    text-decoration: none;
+    color: hsl(245, 39%, 47%);
+
+}
+
+.card__texto__contenedor__boton-proceder{
+    display: block;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 7px 20px -5px rgba(56, 41, 224, 0.61);
+}
+
+:hover.card__texto__contenedor__boton-proceder{
+    background-color: hsl(245, 39%, 47%);
+}
+
+
+.card__texto__contenedor__boton-cancelar{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+:hover.card__texto__contenedor__boton-cancelar{
+    color: black;
+}
+
+
+.attribution{
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media(min-width: 500px){
+    body{
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
